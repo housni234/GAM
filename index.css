@@ -1,0 +1,23 @@
+.top-nav{
+    background-color: blue;
+    overflow: hidden;
+
+}
+
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .bg-company-red {
+    background-color: chocolate;
+  }
