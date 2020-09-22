@@ -1,4 +1,4 @@
-.top-nav{
+/*.top-nav{
     background-color: blue;
     overflow: hidden;
 
@@ -16,8 +16,19 @@
   .top-nav a:hover {
     background-color: #ddd;
     color: black;
-  }
+  }*/
 
   .bg-company-red {
     background-color: chocolate;
   }
+.my-primary{
+  
+  background-color: rgb(20, 9, 119);
+}
+
+
+
+/*.carousel-inner img {
+  height: 100px;
+  width: 100px;
+}*/
