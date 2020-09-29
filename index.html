@@ -21,28 +21,34 @@
 
 <body>
   <!--navigation bar-->
-  <nav class="navbar navbar-expand-md navbar-dark  my-primary sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class='nav-link pr-5 mt-3' href='./index.html'>HOME</a>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link pr-5 mt-3' href='./courses.html'>COURSES</a>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link pr-5 mt-3' href='./mentors.html'>MENTORS</a>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link pr-5 mt-3' href='./about-us.html'>ABOUT US</a>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link pl-2 mt-3 bg-danger' href='./book-now.html'>BOOK NOW</a>
-        </li>
-      </ul>
+      <div class="navbar-brand"><img src="./img/website sketch.png"></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class='nav-link pr-5 mt-4 text-primary ' href='./index.html'>HOME</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-5 mt-4 text-primary' href='./about-us.html'>ABOUT US</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-5 mt-4 text-primary' href='./courses.html'>COURSES</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-5 mt-4 text-primary' href='./mentors.html'>MENTORS</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pl-2 mt-4 text-danger' href='./book-now.html'>BOOK NOW</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-
+  <hr class="bar mt-0"/>
   <!--carousel-->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -52,13 +58,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100 p-5" src="./img/slide1.jpg" alt="First slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/website sketch04.png" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 p-5" src="./img/slide2.jpg" alt="Second slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/imageslide02.png" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 p-5" src="./img/slide3.jpeg" alt="Third slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/image slide03.png" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,14 +80,14 @@
 
 
   <footer>
-    <hr class="bar"/>
-    <div class="col text-center">
+    <hr class="bar" />
+    <div class="col text-center ">
       <div>
         <P>Company phone Number</P>
         <P>Company email</P>
         <P>Company address</P>
         <p>Global Academic Mentors</p>
-        <P>ALl right reserved</P>
+        <P>AL right reserved</P>
       </div>
     </div>
   </footer>

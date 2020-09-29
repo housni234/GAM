@@ -13,7 +13,7 @@
     font-size: 17px;
   }
   
-  .top-nav a:hover {
+  .nav-link a:hover {
     background-color: #ddd;
     color: black;
   }*/
@@ -27,8 +27,47 @@
 }
 
 
-
-/*.carousel-inner img {
+.bar {
+  border: none ;
+  background-color: rgb(29, 27, 122) ;
+  height: 1.5px;
+  margin: none;
+  padding: none;
+}
+/*.nav-link{
+  padding-bottom: 0px;
+}
+.carousel-inner img {
   height: 100px;
   width: 100px;
 }*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body {
+  font-family: "optima" ;
+  font-size: 1.4rem;
+}
+/*.carousel 
+.carosel-inner
+.carousel-item img{
+  width: auto;
+  height: 100%;
+}
+.carousel{
+  height: 600px;
+}*/
+
+footer {
+  color:rgb(29, 27, 122);
+}
+
+footer .bar {
+  border: none ;
+  background-color: rgb(29, 27, 122) ;
+  height: 1.5px;
+  margin: none;
+  padding: none;
+}
+body a {
+  color: rgb(29, 27, 122);
+}
