@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
@@ -16,68 +22,125 @@
 <body>
     <!--navigation bar-->
     <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <!--<div class="navbar-brand"><img src="./img/logo2edit01.png"></div>-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class='nav-link pr-5 mt-3 text-primary ' href='./index.html'>HOME</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-5 mt-3 text-primary' href='./about-us.html'>ABOUT US</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-5 mt-3 text-primary' href='./courses.html'>COURSES</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-5 mt-3 text-primary' href='./mentors.html'>MENTORS</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pl-2 mt-3 text-danger' href='./book-now.html'>BOOK NOW</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <div class="navbar-brand"><img src="./img/website sketch.png"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class='nav-link pr-5 mt-3 text-primary ' href='./index.html'>HOME</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-5 mt-3 text-primary' href='./about-us.html'>ABOUT US</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-5 mt-3 text-primary' href='./courses.html'>COURSES</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-5 mt-3 text-primary' href='./mentors.html'>MENTORS</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pl-2 mt-3 text-danger' href='./book-now.html'>BOOK NOW</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    <hr class="bar"/>
-    
-    <div class="container my-4">
+    <hr class="bar" />
+<!--courses grid-->
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 mt-5">
+            <div class="col-sm-4 mt-5">
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/mentor2.jpg" alt="Card image">
+                    <img class="card-img" src="./img/logo.png" alt="Card image">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Course title</h5>
-                        <p class="card-text">This is a description card for the course supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer. This is a description card for the course supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                       <button class="btn btn-primary" data-toggle="collapse" data-target="#fdata1" aria-expand="false" aria-controls="fdata1">Learn More</button>
-                     </div>
+                        <p class="card-text">This is a description card for the course supporting text below as a
+                            natural lead-in to
+                            additional content. This content is a little bit longer. This is a description card for the
+                            course supporting text below as a natural lead-in </p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#fdata1" aria-expand="false"
+                            aria-controls="fdata1">Learn More</button>
+                    </div>
+                </div>
+            
+
+            <div class="collapse" id="fdata1">
+                <div class="card card-body ">This is a description card for the course supporting text below as a
+                    natural
+                    lead-in to
+                    additional content. This content is a little bit longer. This is a description card for the course
+                    supporting text below as a natural lead-in
+                </div>
+            </div>
+            </div>
+
+            <div class="col-sm-4 mt-5">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./img/logoHistory.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Course title</h5>
+                        <p class="card-text">This is a description card for the course supporting text below as a
+                            natural lead-in to
+                            additional content. This content is a little bit longer. This is a description card for the
+                            course supporting text below as a natural lead-in </p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#fdata2" aria-expand="false"
+                            aria-controls="fdata1">Learn More</button>
+                    </div>
+                </div>
+            
+
+            <div class="collapse" id="fdata2">
+                <div class="card card-body ">This is a description card for the course supporting text below as a
+                    natural
+                    lead-in to
+                    additional content. This content is a little bit longer. This is a description card for the course
+                    supporting text below as a natural lead-in
+                </div>
+            </div>
+
+            </div>
+            <div class="col-sm-4 mt-5">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./img/logoLeterature.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Course title</h5>
+                        <p class="card-text">This is a description card for the course supporting text below as a
+                            natural lead-in to
+                            additional content. This content is a little bit longer. This is a description card for the
+                            course supporting text below as a natural lead-in </p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
+                            aria-controls="fdata1">Learn More</button>
+                    </div>
+                </div>
+            
+
+            <div class="collapse" id="fdata3">
+                <div class="card card-body ">This is a description card for the course supporting text below as a
+                    natural
+                    lead-in to
+                    additional content. This content is a little bit longer. This is a description card for the course
+                    supporting text below as a natural lead-in
                 </div>
             </div>
         </div>
-        <div class="collapse" id="fdata1">
-            <div class="card card-body ">lalal ala l alladk;lsfkjr;wle hr;w wh jhweh tur tkjhg uawh aouw htowuh towh towht o;wuhr ourh ourh o;rh yoe</div>
         </div>
     </div>
 
-
-</body>
-
-<footer>
-    <hr class="bar" />
-    <div class="col text-center ">
-      <div>
-        <P>Company phone Number</P>
-        <P>Company email</P>
-        <P>Company address</P>
-        <p>Global Academic Mentors</p>
-        <P>AL right reserved</P>
-      </div>
-    </div>
-  </footer>
+    <footer>
+        <hr class="bar" />
+        <div class="col text-center ">
+            <div>
+                <P>Company phone Number</P>
+                <P>Company email</P>
+                <P>Company address</P>
+                <p>Global Academic Mentors</p>
+                <P>AL right reserved</P>
+            </div>
+        </div>
+    </footer>
 
 </html>
+</body>

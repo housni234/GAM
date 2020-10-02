@@ -71,3 +71,18 @@ footer .bar {
 body a {
   color: rgb(29, 27, 122);
 }
+
+.dislplay-2{
+  margin-bottom: 110px;
+  font-size: 70px;
+}
+h3{
+  margin-bottom: 180px;
+}
+
+/*.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+}*/
+
