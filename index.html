@@ -21,64 +21,75 @@
 
 <body>
   <!--navigation bar-->
+  <hr class="bar mt-0 pt-0 mb-0 pb-0 mb-0 pb-0" />
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
-      <div class="navbar-brand"><img src="./img/website sketch.png"></div>
+      <div class="navbar-brand mt-0 pt-0 "><img src="./img/logos/gamLogo01.jpg"></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a class='nav-link pr-5 mt-4 text-primary ' href='./index.html'>HOME</a>
+
+
+            <a class='nav-link  pl-0 pr-4 mt-5   ' href='./index.html'>HOME</a>
           </li>
           <li class='nav-item'>
-            <a class='nav-link pr-5 mt-4 text-primary' href='./about-us.html'>ABOUT US</a>
+            <a class='nav-link pr-4 mt-5 ' href='./about-us.html'>ABOUT US</a>
           </li>
           <li class='nav-item'>
-            <a class='nav-link pr-5 mt-4 text-primary' href='./courses.html'>COURSES</a>
+            <a class='nav-link pr-4 mt-5 ' href='./courses.html'>COURSES</a>
           </li>
           <li class='nav-item'>
-            <a class='nav-link pr-5 mt-4 text-primary' href='./mentors.html'>MENTORS</a>
+            <a class='nav-link pr-4 mt-5 ' href='./mentors.html'>MENTORS</a>
           </li>
           <li class='nav-item'>
-            <a class='nav-link pl-2 mt-4 text-danger' href='./book-now.html'>BOOK NOW</a>
+            <a class='nav-link register-link pl-2 mt-5 pr-3 text-danger' href='./book-now.html'>REGISTER</a>
           </li>
         </ul>
       </div>
+      <a href="./book-now.html"><img src="./img/logos/logo2.png"></a>
     </div>
   </nav>
-  <hr class="bar mt-0"/>
+  <hr class="bar mt-0 pt-0 mb-0 pb-0" />
   <!--carousel-->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="img-fluid d-block w-100 mh-25" src="./img/website sketch04.png" alt="First slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/slides/about-us-slide.jpg" alt="First slide">
         <div class="carousel-caption">
           <h1 class="dislplay-2">Company slogan</h1>
           <h3>A little discription here</h3>
-          <a href="./about-us.html" class="btn btn-outline-light">Know more about us</a>
+          <a href="./about-us.html" class="btn btn-outline-light slide-btn btn-sm">Learn more about us</a>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid d-block w-100 mh-25" src="./img/imageslide02.png" alt="Second slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/slides/our-courses-slide.png" alt="Second slide">
         <div class="carousel-caption">
           <h1 class="dislplay-2">Our Courses</h1>
           <h3>A little discription here</h3>
-          <a href="./courses.html" class="btn btn-outline-light">Know more about our courses</a>
+          <a href="./courses.html" class="btn btn-outline-light slide-btn">Learn more about our courses</a>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid d-block w-100 mh-25" src="./img/image slide03.png" alt="Third slide">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/slides/our-mentors-slide.png" alt="Third slide">
         <div class="carousel-caption">
           <h1 class="dislplay-2">Our mentors</h1>
           <h3>A little discription here</h3>
-          <a href="./mentors.html" class="btn btn-outline-light">Know more about our mentors</a>
+          <a href="./mentors.html" class="btn btn-outline-light slide-btn">Learn more about our mentors</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-block w-100 mh-25" src="./img/slides/register-slide.jpg" alt="Third slide">
+        <div class="carousel-caption">
+          <a href="./book-now.html" class="btn btn-outline-light slide-btn ">REGISTER NOW</a>
         </div>
       </div>
     </div>
@@ -94,18 +105,24 @@
 
 
 
-  <footer>
-    <hr class="bar" />
-    <div class="col text-center ">
-      <div>
-        <P>Company phone Number</P>
-        <P>Company email</P>
-        <P>Company address</P>
-        <p>Global Academic Mentors</p>
-        <P>AL right reserved</P>
-      </div>
-    </div>
+<!--footer-->
+<div id="page-container">
+  <div id="content-wrap">
+  </div>
+  <footer id="footer">
+      <div class="footer-info">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <P>Company email</P>
+                  </div>
+                  <div class="col-sm-4">
+                      <P>Company address</P>
+                  </div>
+              </div>
+          </div>
   </footer>
+</div>
 
 
 

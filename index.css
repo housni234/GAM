@@ -18,21 +18,28 @@
     color: black;
   }*/
 
-  .bg-company-red {
-    background-color: chocolate;
-  }
-.my-primary{
-  
-  background-color: rgb(20, 9, 119);
+/*nav-bar links color*/
+.navbar .navbar-collapse .navbar-nav  li  a {
+  color: rgb(0, 35, 158) !important;
+}
+.navbar .navbar-collapse .navbar-nav  .register-link{
+   color: red !important;
+ }
+/*nav-bar links hover color*/
+.navbar .navbar-collapse .navbar-nav  li  a:hover {
+  color: red !important;
 }
 
+  .register-link a:hover{
+  color: red !important;
+}
 
 .bar {
   border: none ;
-  background-color: rgb(29, 27, 122) ;
-  height: 1.5px;
-  margin: none;
-  padding: none;
+  background-color: rgb(0, 35, 158) ;
+  height: 6px;
+  
+
 }
 /*.nav-link{
   padding-bottom: 0px;
@@ -46,8 +53,13 @@
 body {
   font-family: "optima" ;
   font-size: 1.4rem;
+  background-color:rgb(255, 255, 255);
+}/*
+html, body {
+  height: 100%;
+  margin: 0;
 }
-/*.carousel 
+.carousel 
 .carosel-inner
 .carousel-item img{
   width: auto;
@@ -58,31 +70,66 @@ body {
 }*/
 
 footer {
-  color:rgb(29, 27, 122);
+  height: 120px;
+  background-color:rgb(0, 35, 158);
+  color: white;
+  font-size: small;
+
 }
 
-footer .bar {
-  border: none ;
-  background-color: rgb(29, 27, 122) ;
-  height: 1.5px;
-  margin: none;
-  padding: none;
-}
+
 body a {
-  color: rgb(29, 27, 122);
+  color: rgb(0, 35, 158);
+  font-weight: bold;
+  font-size: larger;
 }
 
 .dislplay-2{
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   font-size: 70px;
 }
 h3{
-  margin-bottom: 180px;
+  margin-bottom: 50px;
+}
+.slide-btn{
+  margin-bottom: 110px;
+}
+/*footer*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6.5rem;            /* Footer height */
+  background-color: rgb(29, 27, 122);
+}
+.footer-info p {
+  font-size: small;
+  color: white;
+}
+.rights{
+  margin-left: 50%;
+  margin-top: 40px;
+}
 /*.carousel-caption{
   position: absolute;
   top: 50%;
   transform: translateY(-50);
 }*/
 
+.course-btn{
+  margin-top: 220px;
+}
+
+.navbar-brand{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
