@@ -21,7 +21,13 @@
 /*nav-bar links color*/
 .navbar .navbar-collapse .navbar-nav  li  a {
   color: rgb(0, 35, 158) !important;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'optima' ;
+  letter-spacing: 1px;
+  font-stretch: extra-expanded;
 }
+
 .navbar .navbar-collapse .navbar-nav  .register-link{
    color: red !important;
  }
@@ -30,10 +36,10 @@
   color: red !important;
 }
 
-  .register-link a:hover{
+ /* .register-link a:hover{
   color: red !important;
 }
-
+*/
 .bar {
   border: none ;
   background-color: rgb(0, 35, 158) ;
@@ -52,8 +58,12 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 body {
   font-family: "optima" ;
-  font-size: 1.4rem;
+  font-size: 0.7rem;
   background-color:rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: medium;
+  letter-spacing: 1px;
+  font-stretch: extra-expanded;
 }/*
 html, body {
   height: 100%;
@@ -78,12 +88,12 @@ footer {
 }
 
 
-body a {
+/*body a {
   color: rgb(0, 35, 158);
   font-weight: bold;
   font-size: larger;
 }
-
+*/
 .dislplay-2{
   margin-bottom: 50px;
   font-size: 70px;
@@ -115,10 +125,7 @@ h3{
   font-size: small;
   color: white;
 }
-.rights{
-  margin-left: 50%;
-  margin-top: 40px;
-}
+
 /*.carousel-caption{
   position: absolute;
   top: 50%;
@@ -132,4 +139,103 @@ h3{
 .navbar-brand{
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+span.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.9rem;
+    display: inline-block;
+    line-height: 0;
+    text-transform: none;
+    letter-spacing: 4rem;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: left;
+    padding-left: 3px;
+}
+/*navbar background image*/
+nav{
+  background-image: url(./img/american\ flag02.png);
+}
+
+.bi-info-square{
+
+  margin-top: 0px;
+}
+
+/*Accordion
+.accordion{
+  width: 76%;
+  margin-top: 100px;
+}
+
+.card-header{
+  background-color: rgb(29, 27, 122) ;
+ 
+}
+
+.btn-accordion{
+  color: white;
+}
+.btn-accordion:hover{
+  color: red;
+  text-decoration: none;
+}*/
+
+.schedule-block{
+  background-color:rgb(29, 27, 122) ;
+  color: white;
+  width: 70%;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+.schedule-text{
+margin-left: 40px;
+text-decoration: underline;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.schedule-section{
+  border: solid 1px rgb(180, 180, 180);
+  width: 70%;
+  margin-left: 100px;
+  border-radius: 2px;
+  background-color: white;
+}
+.click-here-link {
+  color: white;
+}
+.click-here-link:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.schedule-section span{
+  color: red;
+  font-weight: bold;
+}
+
+.form-control{
+  width: 200px;
+}
+
+.input-1{
+  margin-left: 163px;
+}
+
+.input-2{
+  margin-left: 137px;
+}
+.input-3{
+  margin-left: 136px;
+}
+
+.form-title{
+  font-size: xx-large;
 }

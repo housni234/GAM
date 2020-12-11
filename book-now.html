@@ -1,67 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    <!--navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <div class="navbar-brand"><img src="./img/logos/gamLogo01.jpg"></div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-    
-    
-                <a class='nav-link  pl-0 pr-4 mt-5   ' href='./index.html'>HOME</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link pr-4 mt-5 ' href='./about-us.html'>ABOUT US</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link pr-4 mt-5 ' href='./courses.html'>COURSES</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link pr-4 mt-5 ' href='./mentors.html'>MENTORS</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link register-link pl-2 mt-5 pr-4 text-danger' href='./book-now.html'>REGISTER</a>
-              </li>
-            </ul>
-          </div>
-          <a href="./book-now.html"><img src="./img/logos/logo2.png"></a>
-        </div>
-      </nav>
-      <hr class="bar mt-0 pt-0 mb-0 pb-0" />
+  <!--navigation bar-->
+  <hr class="bar mt-0 pt-0 mb-0 pb-0 mb-0 pb-0" />
+  <nav class="navbar navbar-expand-md navbar-light p-0">
+    <div class="container-fluid">
+      <div class="navbar-brand mt-0 pt-0 "><img src="./img/logos/GAM (1).png"></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
 
-     <p class="mt-5 ml-2a">To book a course please send us your "infos" to this email or call this number ...</p>
 
-     <!--footer-->
-     <div id="page-container">
-        <div id="content-wrap">
-        </div>
-        <footer id="footer">
-            <div class="footer-info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <P>Company email</P>
-                        </div>
-                        <div class="col-sm-4">
-                            <P>Company address</P>
-                        </div>
-                    </div>
-                </div>
-        </footer>
+            <a class='nav-link  active pl-0 pr-4 mt-5 pb-0' href='./index.html'><span class="material-icons">
+                account_balance
+              </span><br>HOME</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-4 mt-5 pb-0' href='./about-us.html'><span class="material-icons">
+                announcement
+              </span><br>ABOUT US</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-4 mt-5 pb-0' href='./courses.html'><span class="material-icons">
+                library_books
+              </span><br>COURSES</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link pr-4 mt-5 pb-0' href='./mentors.html'><span class="material-icons">
+                groups
+              </span><br>MENTORS</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link register-link pl-2 mt-5 pr-3 pb-0 text-danger' href='./book-now.html'><span
+                class="material-icons">
+                assignment
+              </span><br>REGISTER</a>
+          </li>
+        </ul>
+      </div>
+      <a href="./book-now.html"><img src="./img/logos/GAM-LOGO2.png"></a>
     </div>
+  </nav>
+  <hr class="bar mt-0 pt-0 mb-5" />
+
+<div class="container-fluid ml-5 ">
+  <div class="schedule-block d-flex flex-row">
+    <div class="schedule-text align-self-center">Schedule a Meeting</div>
+    <a class="click-here-link pl-2 align-self-center" href="#Schedule-Meeting">Click HERE to do the following</a>
+  </div>
+  <div class="schedule-section p-3">Sign up <span>(free)</span> for a meeting to--“M.O.M.” (Meet Our Mentors); Learn
+    about Mentorship & Design a Mentorship
+    Plan for your Student <span>(free)</span> ; Custom Design a G.A.M. Program-where busy parents and students can Set
+    Goals
+    & Benchmarks for Academic Progress and Initiate Distance Monitoring <span>(Discounts Available)</span>; *Request a
+    Translator<span>(free)</span></div>
+
+  <div class="schedule-block mt-5 d-flex flex-row">
+    <div class="schedule-text align-self-center">Register for a class</div>
+    <a class="click-here-link pl-2 align-self-center" href="#form">Click HERE to do the following</a>
+  </div>
+  <div class="schedule-section p-3">“Freedom of Choice Plan” Sign up & Postpone Start Date; Choose from our list of
+    regularly offered
+    classes; Schedule a payment plan; Learn about Pre-Paid Discounts; “Trusted Learning” Pre-Paid Packages for Repeat
+    Students; Buy a
+    Super-Flexible “Mentorship Plan” and save more.</div>
+
+  <div class="schedule-block mt-5 d-flex flex-row">
+    <div class="schedule-text align-self-center">GAM Referral Program</div>
+    <a class="click-here-link pl-2 align-self-center" href="#form">Click HERE to do the following</a>
+  </div>
+  <div class="schedule-section p-3">Introduce a family or friend today to Receive Class Credit, Accumulate Credit &
+    Redeem Credit Coupon
+  </div>
+
+  <div class="schedule-block mt-5 d-flex flex-row">
+    <div class="schedule-text align-self-center">Group Class Request Form</div>
+    <a class="click-here-link pl-2 align-self-center" href="#form">Click HERE to do the following</a>
+  </div>
+  <div class="schedule-section p-3">Request Group Class and Save; Join an Existing Group Class; Start a Group Class and
+    Advertise Openings to Save </div>
+</div>
+  <!--form-->
+  <hr class="mt-5">
+  <div class="container mt-5">
+    <div class="form-title text-center mb-5" id="Schedule-Meeting">Schedule a Meeting</div>
+    <form>
+      <div class="form-group d-flex align-itmes-start">
+        <label class="mt-2" for="exampleInputPassword1">Full Name</label>
+        <input type="text" class="form-control input-1" id="InputName">
+      </div>
+      <div class="form-group d-flex align-itmes-start">
+        <label class="mt-2" for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control input-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+         <small id="emailHelp" class="form-text text-muted mt-2 ml-2">Requiered</small>
+      </div>
+      <div class="form-group d-flex align-itmes-start">
+        <label class="mt-2" for="exampleInputPassword1">Other contact</label>
+        <input type="text" class="form-control input-3 mb-3" id="InputName">
+        <small id="emailHelp" class="form-text text-muted mt-2 ml-2">Optional</small>
+      </div>
+      <div class="form-group d-flex align-itmes-start mt-4">
+        <label class="mt-2 mr-2" for="exampleFormControlSelect1">I am interested in talking with</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option  value="" selected disabled hidden>Chose Mentor</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <label class="mt-2 mr-2 ml-2" for="exampleFormControlSelect1">Subject</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option value="" selected disabled hidden>Chose subject</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+      <div class="form-group d-flex align-itmes-start">
+        <label class="mt-2" for="exampleInputPassword1">I am interested in talking with</label>
+        <input type="text" class="form-control input1 ml-2" id="InputName" placeholder="Name of mentor">
+      </div>
+      <div class="form-group form-check mt-4">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> I am interested in learning about a Custom Designed G.A.M.
+          Program</label>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> I am interested in creating a group class</label>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Request Translation for the Meeting</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    </form>
+  </div>
+  <hr class="mt-5">
+  <!--footer-->
+  <div id="page-container">
+    <div id="content-wrap">
+    </div>
+    <footer id="footer">
+      <div class="footer-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <P>Company email</P>
+            </div>
+            <div class="col-sm-4">
+              <P>Company address</P>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </div>
 </body>
 
 
