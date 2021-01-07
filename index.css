@@ -20,7 +20,7 @@
 
 /*nav-bar links color*/
 .navbar .navbar-collapse .navbar-nav  li  a {
-  color: rgb(0, 35, 158) !important;
+  color: rgb(1,87,174) !important;
   font-weight: bold;
   font-size: 1rem;
   font-family: 'optima' ;
@@ -42,7 +42,7 @@
 */
 .bar {
   border: none ;
-  background-color: rgb(0, 35, 158) ;
+  background-color: rgb(1,87,174) ;
   height: 6px;
   
 
@@ -59,11 +59,13 @@
 body {
   font-family: "optima" ;
   font-size: 0.7rem;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(180, 180, 180);
+  /*background-color: rgb(74, 141, 203);*/
   font-weight: normal;
   font-size: medium;
   letter-spacing: 1px;
   font-stretch: extra-expanded;
+  color: white;
 }/*
 html, body {
   height: 100%;
@@ -81,7 +83,7 @@ html, body {
 
 footer {
   height: 120px;
-  background-color:rgb(0, 35, 158);
+  background-color:rgb(1,87,174);
   color: white;
   font-size: small;
 
@@ -100,9 +102,11 @@ footer {
 }
 h3{
   margin-bottom: 50px;
+  font-size: 40px;
 }
 .slide-btn{
   margin-bottom: 110px;
+  
 }
 /*footer*/
 #page-container {
@@ -119,7 +123,7 @@ h3{
   bottom: 0;
   width: 100%;
   height: 6.5rem;            /* Footer height */
-  background-color: rgb(29, 27, 122);
+  background-color: rgb(1,87,174);
 }
 .footer-info p {
   font-size: small;
@@ -186,7 +190,7 @@ nav{
 }*/
 
 .schedule-block{
-  background-color:rgb(29, 27, 122) ;
+  background-color: rgb(1,87,174);
   color: white;
   width: 70%;
   height: 50px;
@@ -236,6 +240,25 @@ letter-spacing: 2px;
   margin-left: 136px;
 }
 
+.input-4{
+  margin-left: 107px;
+}
 .form-title{
   font-size: xx-large;
+}
+.text-link{
+  color: black;
+}
+.about-us-container{
+  color: white;
+}
+.about-us-body{
+  background-image: url(./img/about-us-cover.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1282px 689px;
+}
+.about-us-text{
+  line-height: 1.8;
+  color:rgb(216, 216, 216);
 }
