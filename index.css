@@ -59,8 +59,8 @@
 body {
   font-family: "optima" ;
   font-size: 0.7rem;
-  background-color: rgb(180, 180, 180);
-  /*background-color: rgb(74, 141, 203);*/
+ /* background-color: rgb(180, 180, 180);
+  background-color: rgb(74, 141, 203);*/
   font-weight: normal;
   font-size: medium;
   letter-spacing: 1px;
@@ -206,7 +206,7 @@ letter-spacing: 2px;
 }
 
 .schedule-section{
-  border: solid 1px rgb(180, 180, 180);
+  border: solid 1px rgb(255, 255, 255);
   width: 70%;
   margin-left: 100px;
   border-radius: 2px;
@@ -243,6 +243,57 @@ letter-spacing: 2px;
 .input-4{
   margin-left: 107px;
 }
+.input-5{
+  margin-left: 46px;
+}
+.input-6{
+  margin-left: 134px;
+}
+.input-7{
+  margin-left: 138px;
+}
+.input-8{
+  margin-left: 111px;
+}
+.input-10{
+margin-left: 64px;
+}
+.input-11{
+  margin-left: 82px;
+  margin-right: 40px;
+}
+.input-12{
+  margin-left: 5px;
+  height: 38px;
+}
+.input-13{
+  margin-left: 77px;
+}
+.input-14{
+  margin-left: 245px;
+}
+.input-15{
+margin-left: 133px;
+}
+.input-16{
+margin-right: 11px;
+}
+#comment{
+  margin-left: 36px;
+  
+}
+.label-1{
+margin-left: 80px;
+margin-right: 0px;
+padding-right: 0px;
+}
+.label-2{
+  margin-left: 80px;
+  margin-right: 48px;
+}
+.label-3{
+  margin-right: 21px;
+}
 .form-title{
   font-size: xx-large;
 }
@@ -253,12 +304,66 @@ letter-spacing: 2px;
   color: white;
 }
 .about-us-body{
-  background-image: url(./img/about-us-cover.png);
+  background-image: url(./img/ABOUTUS-BACKGROUND.png);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1282px 689px;
+  background-size: 1282px 800px;
 }
 .about-us-text{
   line-height: 1.8;
-  color:rgb(216, 216, 216);
+  color:rgb(255, 255, 255);
+}
+
+/* .frms{ 
+  background-image: url(./img/backgroud\ form\ GAM.png);
+}*/
+
+.forms-bar{
+  background-color: white;
+  box-shadow: 0px 2px 5px white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+.float{
+	position:fixed;
+	width:110px;
+	height:110px;
+	bottom:7px;
+  right:10px;
+  cursor: pointer;
+}
+
+.float img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-img{
+  box-shadow:1px 1px 30px 4px rgb(0, 0, 0);
+}
+
+.gam-filter{
+  height: 100;
+  width: 100;
+}
+
+.modal-content{
+  background-color: rgb(13, 54, 77);
+}
+
+.textarea{
+  width: 420px;
+}
+
+.gam-logo{
+  height: 150px;
+  width: 150px;
+  margin-left: 160px;
 }
