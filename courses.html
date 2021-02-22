@@ -17,297 +17,175 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body style="background-attachment: fixed;" background="./img/background05.png" >
+<body style="background-attachment: fixed;" background="./img/courses-background.png">
     <!--navigation bar-->
     <hr class="bar m-0 p-0" />
     <nav class="navbar navbar-expand-md navbar-light p-0">
-      <div class="container-fluid">
-        <div class="navbar-brand mt-0 pt-0 "><img src="./img/logos/GAM-logo-new.png"></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-  
-  
-              <a class='nav-link  active pl-0 pr-4 mt-5 pb-0' href='./index.html'><span class="material-icons">
-                account_balance
-                </span><br>HOME</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-4 mt-5 pb-0' href='./about-us.html'><span class="material-icons">
-                message
-                </span><br>ABOUT US</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-4 mt-5 pb-0' href='./courses.html'><span class="material-icons">
-                library_books
-                </span><br>COURSES</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link pr-4 mt-5 pb-0' href='./mentors.html'><span class="material-icons">
-                groups
-                </span><br>MENTORS</a>
-            </li>
-            <li class='nav-item'>
-              <a class='nav-link register-link pl-2 mt-5 pr-3 pb-0 text-danger' href='./book-now.html'><span class="material-icons">
-                assignment
-                </span><br>REGISTER</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <div class="navbar-brand mt-0 pt-0 "><img src="./img/logos/GAM-logo-new.png"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse ">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+
+
+                        <a class='nav-link  active pl-0 pr-4 mt-5 pb-0' href='./index.html'><span
+                                class="material-icons">
+                                account_balance
+                            </span><br>HOME</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-4 mt-5 pb-0' href='./about-us.html'><span class="material-icons">
+                                message
+                            </span><br>ABOUT US</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-4 mt-5 pb-0' href='./courses.html'><span class="material-icons">
+                                library_books
+                            </span><br>COURSES</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link pr-4 mt-5 pb-0' href='./mentors.html'><span class="material-icons">
+                                groups
+                            </span><br>MENTORS</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link register-link pl-2 mt-5 pr-3 pb-0 text-danger' href='./book-now.html'><span
+                                class="material-icons">
+                                assignment
+                            </span><br>REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="./book-now.html"><img src="./img/testi2.png"></a>
         </div>
-        <a href="./book-now.html"><img src="./img/testi2.png"></a>
-      </div>
     </nav>
     <hr class="bar m-0 p-0" />
 
     <!--courses grid-->
     <div class="container">
-        <div class="row justify-content-sm-around">
+        <div class="row justify-content-center">
             <!--Science-->
-            <div class="col-sm-3 mt-5 ">
-                <div class="card bg-dark text-white">
-                    <img class="card-img img-fluid" src="./img/science.jpg" alt="Card image">
-                    <div class="card-img-overlay ">
-                        <button class="btn btn-primary course-btn btn-sm" data-toggle="collapse" data-target="#fdata1" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata1">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/scince-test1.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center">SCIENCE</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!--History-->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/history-con.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary course-btn btn-sm" data-toggle="collapse" data-target="#fdata2" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata2">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/history.jpg">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-dark">HISTORY</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-           <!--Literature-->
-            <div class="col-sm-3 mt-5">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/literature-icon.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <!--English-->
+            <div class="col-sm-3 mt-5 mr-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/english.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center english">ENGLISH</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <!--group counseling-->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/GAM.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <!--web design-->
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/IT.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-success">IT</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-           <!--web design-->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/wd.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
-                </div>
-            </div>
-           <!--computer programming-->
-            <div class="col-sm-3 mt-5">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/cp.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
-                </div>
-            </div>
-              <!--Creative writing-->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/cr.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
-                </div>
-            </div>
-             <!--academic writing-->
-            <div class="col-sm-3 mt-5">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/ar.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
-                </div>
-            </div>
-             <!--math-->
-            <div class="col-sm-3 mt-5">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/math.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <!--math-->
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/MATH.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-secondary">MATH</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!-- debate -->
-            <div class="col-sm-3 mt-5">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/debate.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/debate & rhetoric2.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-secondary">DEBATE & RHETORIC</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!-- languages -->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/languages.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/languages.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-secondary">LANGUAGES</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-<!-- student counseling -->
-            <div class="col-sm-3 mt-5 m-2">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./img/student-counseling.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                            aria-controls="fdata1">List of courses</button>
-                    </div>
-                </div>
-                <div class="collapse" id="fdata3">
-                    <div class="card card-body bg-light">
-                        <a href="#">course1</a>
-                        <a href="#">course2</a>
-                        <a href="#">course3</a>
-                    </div>
+            <!-- student counseling -->
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./img/college counceling.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-secondary">COLLEGE COUNSELING</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-<!-- digital photography  -->
-<div class="col-sm-3 mt-5 m-2">
-    <div class="card bg-dark text-white">
-        <img class="card-img" src="./img/digital photography.png" alt="Card image">
-        <div class="card-img-overlay">
-            <button class="btn btn-primary btn-sm course-btn" data-toggle="collapse" data-target="#fdata3" aria-expand="false"
-                aria-controls="fdata1">List of courses</button>
+            <!-- digital photography  -->
+            <div class="col-sm-3 mt-5 mr-5">
+                <div class="card">
+                    <a href="./courses-description.html">
+                        <img class="card-img rounded course-img" src="./imG/DIGITAL photo.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-center text-secondary">DIGITAL PHOTOGRAPHY</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="collapse" id="fdata3">
-        <div class="card card-body bg-light">
-            <a href="#">course1</a>
-            <a href="#">course2</a>
-            <a href="#">course3</a>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-    <a class="float" data-toggle="modal"
-  data-target="#exampleModal" type="button">
-    <img src="./img/contact-us03.png">
+    <a class="float" data-toggle="modal" data-target="#exampleModal" type="button">
+        <img src="./img/contact-us03.png">
     </a>
     <!--footer-->
-    <footer >
+    <footer>
         <div class="footer-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
-                
-              </div>
-              
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+
+                    </div>
+
+                </div>
             </div>
-          </div>
-      </footer>
+    </footer>
 
 </html>
 </body>

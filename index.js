@@ -1,10 +1,9 @@
 
-//const contactForm = document.getElementById("contact-us-form");
 
 document.getElementById("contact-us-form").addEventListener("submit", submitForm);
 
 
-/**/function submitForm() {
+function submitForm() {
     //get the email values
     let name = document.getElementById("InputName").value;
     let subject = document.getElementById("InputSubject").value;
@@ -23,7 +22,7 @@ function sendEmail(name, subject, email, message) {
         To: 'testing84.email@gmail.com',
         From: "testing84.email@gmail.com",
         Subject: subject,
-        Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message} `
+        Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message}`,
     }).then(
         (message) => alert("Your email has been sent successfully"));
 }

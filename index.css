@@ -278,6 +278,9 @@ margin-left: 133px;
 .input-16{
 margin-right: 11px;
 }
+.input-student-name{
+  margin-left: 29px;
+}
 #comment{
   margin-left: 36px;
   
@@ -345,7 +348,7 @@ html {
   height: 100%;
 }
 
-.card-img{
+.course-img{
   box-shadow:1px 1px 30px 4px rgb(0, 0, 0);
 }
 
@@ -365,5 +368,34 @@ html {
 .gam-logo{
   height: 150px;
   width: 150px;
-  margin-left: 160px;
+  margin-left: 200px;
+  margin-top: 20px;
 }
+.card-title{
+  font-weight: bolder;
+  color: red;
+  
+}
+
+.course-desc{
+ /*background-color: rgb(255, 255, 255);*/ 
+  height: 2700px;
+  width: 900px;
+  border-radius: 30px;
+  background-image: url(./img/our-courses-bg-04.png);
+  box-shadow: 1px 1px 30px 4px black;
+}
+
+
+.course-title{
+  text-shadow: 2px 2px 3px black ;
+  font-weight: bold;
+}
+
+.english{
+  color: rgb(1,87,174);
+}
+
+/*.cours-desc-container{
+  box-shadow: 1px 1px 30px  black;
+}*/
