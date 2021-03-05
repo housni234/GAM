@@ -371,11 +371,11 @@ html {
   margin-left: 200px;
   margin-top: 20px;
 }
-.card-title{
+/* .card-title{
   font-weight: bolder;
   color: red;
   
-}
+} */
 
 .course-desc{
  /*background-color: rgb(255, 255, 255);*/ 
@@ -386,16 +386,26 @@ html {
   box-shadow: 1px 1px 30px 4px black;
 }
 
-
-.course-title{
-  text-shadow: 2px 2px 3px black ;
-  font-weight: bold;
+.how-it-works{
+  width: 100%;
 }
-
-.english{
-  color: rgb(1,87,174);
-}
-
 /*.cours-desc-container{
   box-shadow: 1px 1px 30px  black;
 }*/
+
+.testimonials{
+  background-image: url(./img/testi-bg02.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.testimonials-card{
+ margin-top: 90px;
+  height: 300px;
+  border: solid 4px rgb(231,170,45);
+  border-radius: 15px;
+}
+
+.hey{
+ 
+}
