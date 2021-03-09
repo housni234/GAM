@@ -230,11 +230,11 @@ letter-spacing: 2px;
 }
 
 .input-1{
-  margin-left: 163px;
+  margin-top: 86px;
 }
 
 .input-2{
-  margin-left: 137px;
+  margin-left: 190px;
 }
 .input-3{
   margin-left: 136px;
@@ -275,16 +275,17 @@ margin-left: 64px;
 .input-15{
 margin-left: 133px;
 }
-.input-16{
-margin-right: 11px;
+.referral-name-input{
+  margin-top: 120px;
+}
+
+.referral-input{
+margin-top: 90px;
 }
 .input-student-name{
   margin-left: 29px;
 }
-#comment{
-  margin-left: 36px;
-  
-}
+
 .label-1{
 margin-left: 80px;
 margin-right: 0px;
@@ -361,8 +362,8 @@ html {
   background-color: rgb(13, 54, 77);
 }
 
-.textarea{
-  width: 420px;
+textarea{
+  width: 480px;
 }
 
 .gam-logo{
@@ -406,6 +407,16 @@ html {
   border-radius: 15px;
 }
 
-.hey{
- 
-}
+.testi-sheet{
+   height: 2700px;
+   width: 900px;
+   border-radius: 30px;
+   margin-top: 40px;
+   background-image: url(./img/testi-sheet04.png);
+   box-shadow: 1px 1px 30px 4px black;
+ }
+
+ .Claim-Referral-Credits{
+   margin-top: 172px;
+   margin-bottom: 30px;
+ }

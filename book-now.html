@@ -61,11 +61,11 @@
           </li>
         </ul>
       </div>
-      <a href="./book-now.html"><img src="./img/testi2.png"></a>
+      <a href="./book-now.html"><img src="./img/testimonials-logo02.png"></a>
     </div>
   </nav>
   <hr class="bar  p-0 m-0" />
-  <div style="background-image: url(./img/register-bg.png); background-attachment: fixed;" >
+  <div style="background-image: url(./img/register-bg.png); background-attachment: fixed;">
     <div class="container-fluid p-5">
       <div class="schedule-block d-flex flex-row">
         <div class="schedule-text align-self-center">Schedule a Meeting</div>
@@ -123,8 +123,77 @@
   <div class="container ">
     <div class="row" id="Schedule-Meeting">
       <div class="col-8">
-    <div class="form-title text-center mt-5 mb-5 text-decoration-underline" ><ins>Schedule a
-        Meeting with a GAM Administrator</ins></div>
+        <div class="form-title text-center mt-5 mb-5 text-decoration-underline"><ins>Schedule a Meeting with a GAM
+            Administrator</ins></div>
+      </div>
+      <div class="col">
+        <img class="gam-logo" src="./img/GAM-filter.png">
+      </div>
+    </div>
+    <form method="POST">
+      <div class="row">
+        <div class="col-4">
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputPassword1">First & Family Name</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Student Name (if different from above)</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputEmail1">Email address</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Other contact</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start ">
+            <label class="mt-2 mb-4" for="exampleFormControlSelect1">I am interested in</label>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-white mt-2 ml-2">Required</small>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+            <small id="emailHelp" class="form-text text-white mt-2 ml-2">Optional</small>
+          </div>
+          <div class="form-group d-flex align-itmes-start ">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option value="" selected disabled hidden>Chose Subject</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> I am interested in learning about a Custom Designed
+          G.A.M.
+          Program</label>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> I am interested in creating a group class</label>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Request translation for a meeting</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+    </form>
+  </div>
+  <!-- <div class="row" id="Schedule-Meeting">
+      <div class="col-8">
+    <div class="form-title text-center mt-5 mb-5 text-decoration-underline" ><ins>Schedule a Meeting with a GAM Administrator</ins></div>
         <form method="POST">
           <div class="form-group d-flex align-itmes-start">
             <label class="mt-2" for="exampleInputPassword1">First & Family Name</label>
@@ -174,88 +243,291 @@
         <img class="gam-logo" src="./img/GAM-filter.png">
       </div>
     </div>
-  </div>
+  </div>-->
   <hr class="mt-5 forms-bar">
-  <!--Register for a class form-->
+  <!--Register for a class 
   <div class="container mt-5">
     <div class="row">
       <div class="col-8">
         <div class="form-title text-center mb-5 text-decoration-underline" id="Register-for-a-class"><ins>Register for a
             class</ins>
+        </div>
+      </div>
+      <form>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">Full Name</label>
+          <input type="text" class="form-control input-1" id="InputName">
+          <label class="mt-2 label-1 mr-2" for="start">Date</label>
+          <input class="form-control date-1" type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
+            max="2020-12-31">
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control input-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-white mt-2 ml-2">Required</small>
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">Student Name</label>
+          <input type="text" class="form-control input-1 input-6" id="InputName">
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="start">Date of Birth</label>
+          <input class="form-control input-7" type="date" id="start" name="trip-start" value="InputName"
+            min="1970-01-01" max="2020-12-31">
+          <label class="mt-2 input-11 mr-3" for="exampleInputPassword1">Current Grade Level</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option value="" selected disabled hidden>Chose your grade level</option>
+            <option>First grade</option>
+            <option>Second grade</option>
+            <option>third grade</option>
+            <option>high school</option>
+          </select>
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">Request a course</label>
+          <input type="text" class="form-control input-8" id="InputName">
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">Number of hours</label>
+          <select class="form-control input-8" id="exampleFormControlSelect1">
+            <option>10</option>
+            <option>20</option>
+            <option>40</option>
+            <option>60</option>
+            <option>90</option>
+          </select>
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-2" for="exampleInputPassword1">I am interested in the following<br> Small Group
+            Courses</label>
+          <input type="text" class="form-control input-12" id="InputName">
+        </div>
+        <div class="form-group form-check mt-4">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label mt-2" for="exampleCheck1">Referral Confirmation</label>
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">I was referred to GAM by </label>
+          <input type="text" class="form-control input-5" id="InputName">
+          <label class="mt-2 label-2" for="start">Date of Referral</label>
+          <input class="form-control " type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
+            max="2020-12-31">
+        </div>
+        <div class="form-group d-flex align-itmes-start">
+          <label class="mt-2 mr-3" for="exampleInputPassword1">Other Requests/Tell Us</label>
+          <input type="text" class="form-control input-10" id="InputName">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+      </form>
+    </div>
+  </div>form-->
+  <div class="container">
+    <div class="row" id="Schedule-Meeting">
+      <div class="col-8">
+        <div class="form-title text-center mt-5 mb-5 text-decoration-underline"><ins>Register for a
+            class</ins></div>
+      </div>
+      <div class="col-4">
+        <img class="gam-logo" src="./img/GAM-filter.png">
+      </div>
+    </div>
+    <form method="POST">
+      <div class="row">
+        <div class="col-4">
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Full Name</label>
           </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2 " for="exampleInputEmail1">Email address</label>
           </div>
-          <form>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="exampleInputPassword1">Full Name</label>
-              <input type="text" class="form-control input-1" id="InputName">
-              <label class="mt-2 label-1 mr-2" for="start">Date</label>
-              <input class="form-control date-1" type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2 " for="exampleInputPassword1">Student Name</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2 " for="start">Date of Birth</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Current Grade Level</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Request a course</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Number of hours</label>
+          </div>
+          <div class="form-group  d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">I am interested in the following Small Group
+              Courses</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="" id="exampleCheck2">
+            <label class="mt-2" for="exampleCheck2">Referral Confirmation</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2 " for="exampleInputPassword1">I was referred to GAM by </label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2 s" for="exampleInputPassword1">Other Requests/Tell Us</label>
+          </div>
+        </div>
+
+        <div class="col-8">
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-white mt-2 ml-2">Required</small>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input class="form-control" type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
               max="2020-12-31">
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control input-2" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-white mt-2 ml-2">Required</small>
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="exampleInputPassword1">Student Name</label>
-              <input type="text" class="form-control input-1 input-6" id="InputName">
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="start">Date of Birth</label>
-              <input class="form-control input-7" type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option value="" selected disabled hidden>Chose your grade level</option>
+              <option>First grade</option>
+              <option>Second grade</option>
+              <option>third grade</option>
+              <option>high school</option>
+            </select>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>10</option>
+              <option>20</option>
+              <option>40</option>
+              <option>60</option>
+              <option>90</option>
+            </select>
+          </div>
+
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group referral-input d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+            <label class="m-2">date of referral</label>
+            <input class="form-control " type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
               max="2020-12-31">
-              <label class="mt-2 input-11 mr-3" for="exampleInputPassword1">Current Grade Level</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option value="" selected disabled hidden>Chose your grade level</option>
-                <option>First grade</option>
-                <option>Second grade</option>
-                <option>third grade</option>
-                <option>high school</option>
-              </select>
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="exampleInputPassword1">Request a course</label>
-              <input type="text" class="form-control input-8" id="InputName">
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-3" for="exampleInputPassword1">Number of hours</label>
-              <select class="form-control input-8" id="exampleFormControlSelect1">
-                <option>10</option>
-                <option>20</option>
-                <option>40</option>
-                <option>60</option>
-                <option>90</option>
-              </select>
-            </div>
-            <div class="form-group d-flex align-itmes-start">
-              <label class="mt-2 mr-2" for="exampleInputPassword1">I am interested in the following<br> Small Group
-                Courses</label>
-                <input type="text" class="form-control input-12" id="InputName">
-              </div>
-              <div class="form-group form-check mt-4">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label mt-2" for="exampleCheck1">Referral Confirmation</label>
-              </div>
-              <div class="form-group d-flex align-itmes-start">
-                <label class="mt-2 mr-3" for="exampleInputPassword1">I was referred to GAM by </label>
-                <input type="text" class="form-control input-5" id="InputName">
-                <label class="mt-2 label-2" for="start">Date of Referral</label>
-                <input class="form-control " type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
-                max="2020-12-31">
-              </div>
-              <div class="form-group d-flex align-itmes-start">
-                <label class="mt-2 mr-3" for="exampleInputPassword1">Other Requests/Tell Us</label>
-                <input type="text" class="form-control input-10" id="InputName">
-              </div>
-              <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
-            </form>
           </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
           </div>
-          <hr class="mt-5 forms-bar">
-          <!--GAM Referral Program form-->
-          <div class="container mt-5">
-            <div class="form-title text-center mb-5 text-decoration-underline" id="GAM-Referral-Program"><ins>GAM Referral
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary  mt-3 d-flex justify-content-center">Submit</button>
+    </form>
+  </div>
+  <hr class="mt-5 forms-bar">
+  <!--GAM Referral Program form-->
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="form-title text-center mt-5 mb-5 text-decoration-underline"><ins>GAM Referral Program</ins></div>
+      </div>
+      <div class="col">
+        <img class="gam-logo" src="./img/GAM-filter.png">
+      </div>
+    </div>
+    <form>
+      <div class="row">
+        <div class="col-4">
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputPassword1">Full Name</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Email address</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Other contact</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputPassword1">Please apply credit(s) to the following
+              account</label>
+          </div>
+          <h5 class="mt-5 mb-4"><strong>Referral Family Information</strong></h5>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputPassword1">Student/Family Name</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Email address</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Recommendation Message to Recipient</label>
+          </div>
+          <h5 class="Claim-Referral-Credits"><strong>Claim Referral Credits</strong></h5>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputPassword1">I referred the following student to GAM</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">My Email</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="start"> Date of Referral</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Email of Student/Family</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="form-label mt-2" for="exampleInputEmail1">Recommendation Message to Recipient</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-white mt-2 ml-2">Required</small>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-white mt-2 ml-2">Optional</small>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName" placeholder="Student's Name">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control referral-name-input" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <textarea class="form-control-lg" rows="5"></textarea>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control input-1" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input class="form-control" type="date" id="start" name="trip-start" value="InputName" min="1970-01-01"
+              max="2020-12-31">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <textarea class="form-control-lg " rows="5" id="comment2"></textarea>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+    </form>
+  </div>
+  </div>
+  <!-- <div class="container mt-5">
+    <div class="form-title text-center mb-5 text-decoration-underline" id="GAM-Referral-Program"><ins>GAM Referral
         Program</ins></div>
     <form>
       <div class="form-group d-flex align-itmes-start">
@@ -312,10 +584,68 @@
       </div>
       <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
     </form>
-  </div>
+  </div> -->
   <hr class="mt-5 forms-bar">
 
   <!-- Group Class Request Form-->
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="form-title text-center mt-5 mb-5 text-decoration-underline"><ins>Group Class Request</ins></div>
+      </div>
+      <div class="col">
+        <img class="gam-logo" src="./img/GAM-filter.png">
+      </div>
+    </div>
+    <form>
+      <div class="row">
+        <div class="row-8">
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Student(s) Name</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Total Number of Students to be enrolled in the course</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Total Number of Course Hours</label>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <label class="mt-2" for="exampleInputPassword1">Proposed Dates for the Group Course</label>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>10</option>
+              <option>20</option>
+              <option>40</option>
+              <option>60</option>
+              <option>90</option>
+            </select>
+          </div>
+          <div class="form-group d-flex align-itmes-start">
+            <input type="text" class="form-control" id="InputName">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+
+    </form>
+  </div>
+
+  <!-- 
   <div class="container mt-5">
     <div class="form-title text-center mb-5 text-decoration-underline" id="Group-Class-Request-Form"><ins>Group Class
         Request</ins></div>
@@ -345,13 +675,13 @@
         </select>
       </div>
       <div class="form-group d-flex align-itmes-start">
-          <label class="mt-2" for="exampleInputPassword1">Proposed Dates for the Group Course</label>
-          <input type="text" class="form-control input-1" id="InputName">
-        </div>
+        <label class="mt-2" for="exampleInputPassword1">Proposed Dates for the Group Course</label>
+        <input type="text" class="form-control input-1" id="InputName">
       </div>
-      <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
-    </form>
   </div>
+  <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+  </form>
+  </div> -->
   <a class="float" data-toggle="modal" data-target="#exampleModal" type="button">
     <img src="./img/contact-us03.png">
   </a>
