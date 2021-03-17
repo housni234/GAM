@@ -1,23 +1,7 @@
-/*.top-nav{
-    background-color: blue;
-    overflow: hidden;
 
+html {
+  scroll-behavior: smooth;
 }
-
-.top-nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .nav-link a:hover {
-    background-color: #ddd;
-    color: black;
-  }*/
-
 /*nav-bar links color*/
 .navbar .navbar-collapse .navbar-nav  li  a {
   color: rgb(1,87,174) !important;
@@ -29,57 +13,51 @@
 }
 
 .navbar .navbar-collapse .navbar-nav  .register-link{
-   color: red !important;
- }
+  color: red !important;
+}
 /*nav-bar links hover color*/
 .navbar .navbar-collapse .navbar-nav  li  a:hover {
   color: red !important;
 }
 
- /* .register-link a:hover{
-  color: red !important;
+/*navbar background image*/
+nav{
+  background-image: url(./img/american\ flag02.png);
 }
-*/
+
+/* nav-bar links icons */
+span.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.9rem;
+    display: inline-block;
+    line-height: 0;
+    text-transform: none;
+    letter-spacing: 4rem;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: left;
+    padding-left: 3px;
+}
+
 .bar {
   border: none ;
   background-color: rgb(1,87,174) ;
   height: 6px;
-  
-
 }
-/*.nav-link{
-  padding-bottom: 0px;
-}
-.carousel-inner img {
-  height: 100px;
-  width: 100px;
-}*/
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 body {
   font-family: "optima" ;
   font-size: 0.7rem;
- /* background-color: rgb(180, 180, 180);
-  background-color: rgb(74, 141, 203);*/
   font-weight: normal;
   font-size: medium;
   letter-spacing: 1px;
   font-stretch: extra-expanded;
   color: white;
-}/*
-html, body {
-  height: 100%;
-  margin: 0;
 }
-.carousel 
-.carosel-inner
-.carousel-item img{
-  width: auto;
-  height: 100%;
-}
-.carousel{
-  height: 600px;
-}*/
 
 footer {
   height: 120px;
@@ -89,25 +67,21 @@ footer {
 
 }
 
-
-/*body a {
-  color: rgb(0, 35, 158);
-  font-weight: bold;
-  font-size: larger;
-}
-*/
+/* carousel slide display */
 .dislplay-2{
   margin-bottom: 50px;
   font-size: 70px;
 }
+
 h3{
   margin-bottom: 50px;
   font-size: 40px;
 }
+
 .slide-btn{
   margin-bottom: 110px;
-  
 }
+
 /*footer*/
 #page-container {
   position: relative;
@@ -130,64 +104,19 @@ h3{
   color: white;
 }
 
-/*.carousel-caption{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50);
-}*/
-
 .course-btn{
   margin-top: 220px;
 }
 
+/* logo */
 .navbar-brand{
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-span.material-icons{
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2.9rem;
-    display: inline-block;
-    line-height: 0;
-    text-transform: none;
-    letter-spacing: 4rem;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    text-align: left;
-    padding-left: 3px;
-}
-/*navbar background image*/
-nav{
-  background-image: url(./img/american\ flag02.png);
-}
-
 .bi-info-square{
-
   margin-top: 0px;
 }
-
-/*Accordion
-.accordion{
-  width: 76%;
-  margin-top: 100px;
-}
-
-.card-header{
-  background-color: rgb(29, 27, 122) ;
- 
-}
-
-.btn-accordion{
-  color: white;
-}
-.btn-accordion:hover{
-  color: red;
-  text-decoration: none;
-}*/
 
 .schedule-block{
   background-color: rgb(1,87,174);
@@ -225,57 +154,17 @@ letter-spacing: 2px;
   font-weight: bold;
 }
 
-.form-control{
+.input{
   width: 200px;
 }
 
 .input-1{
+  width: 200px;
   margin-top: 86px;
 }
 
-.input-2{
-  margin-left: 190px;
-}
-.input-3{
-  margin-left: 136px;
-}
-
-.input-4{
-  margin-left: 107px;
-}
-.input-5{
-  margin-left: 46px;
-}
-.input-6{
-  margin-left: 134px;
-}
-.input-7{
-  margin-left: 138px;
-}
-.input-8{
-  margin-left: 111px;
-}
-.input-10{
-margin-left: 64px;
-}
-.input-11{
-  margin-left: 82px;
-  margin-right: 40px;
-}
-.input-12{
-  margin-left: 5px;
-  height: 38px;
-}
-.input-13{
-  margin-left: 77px;
-}
-.input-14{
-  margin-left: 245px;
-}
-.input-15{
-margin-left: 133px;
-}
 .referral-name-input{
+  width: 200px;
   margin-top: 120px;
 }
 
@@ -286,18 +175,6 @@ margin-top: 90px;
   margin-left: 29px;
 }
 
-.label-1{
-margin-left: 80px;
-margin-right: 0px;
-padding-right: 0px;
-}
-.label-2{
-  margin-left: 80px;
-  margin-right: 48px;
-}
-.label-3{
-  margin-right: 21px;
-}
 .form-title{
   font-size: xx-large;
 }
@@ -318,23 +195,11 @@ padding-right: 0px;
   color:rgb(255, 255, 255);
 }
 
-/* .frms{ 
-  background-image: url(./img/backgroud\ form\ GAM.png);
-}*/
-
 .forms-bar{
   background-color: white;
   box-shadow: 0px 2px 5px white;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
-
-
-
-
+/* contact-us logo */
 .float{
 	position:fixed;
 	width:110px;
@@ -343,43 +208,41 @@ html {
   right:10px;
   cursor: pointer;
 }
-
+/* contact us model */
 .float img{
   width: 100%;
   height: 100%;
 }
 
-.course-img{
-  box-shadow:1px 1px 30px 4px rgb(0, 0, 0);
+.modal-message{
+  width: 400px;
 }
+.modal-content{
+  background-color: rgb(13, 54, 77);
+}
+
+/* .course-img{
+  box-shadow:1px 1px 30px 4px rgb(0, 0, 0);
+} */
 
 .gam-filter{
   height: 100;
   width: 100;
 }
 
-.modal-content{
-  background-color: rgb(13, 54, 77);
-}
 
 textarea{
   width: 480px;
 }
 
 .gam-logo{
-  height: 150px;
-  width: 150px;
-  margin-left: 200px;
+  height: 100px;
+  width: 100px;
+  /* margin-left: 200px; */
   margin-top: 20px;
 }
-/* .card-title{
-  font-weight: bolder;
-  color: red;
-  
-} */
 
 .course-desc{
- /*background-color: rgb(255, 255, 255);*/ 
   height: 2700px;
   width: 900px;
   border-radius: 30px;
@@ -390,9 +253,6 @@ textarea{
 .how-it-works{
   width: 100%;
 }
-/*.cours-desc-container{
-  box-shadow: 1px 1px 30px  black;
-}*/
 
 .testimonials{
   background-image: url(./img/testi-bg02.png);
@@ -408,15 +268,24 @@ textarea{
 }
 
 .testi-sheet{
-   height: 2700px;
+   height: 1800px;
    width: 900px;
-   border-radius: 30px;
+   border-radius: 36px;
    margin-top: 40px;
-   background-image: url(./img/testi-sheet04.png);
+   background-image: url(./img/testi-sheet06.png);
    box-shadow: 1px 1px 30px 4px black;
  }
 
  .Claim-Referral-Credits{
    margin-top: 172px;
    margin-bottom: 30px;
+ }
+h5{
+   margin-top: 20px;
+ }
+
+ .italy-flag-img{
+   height: 22px;
+   width: 32px;
+   /* box-shadow: 1px 1px 10px 2px rgb(13, 54, 77); */
  }
