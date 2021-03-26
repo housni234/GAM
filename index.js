@@ -19,7 +19,7 @@ function sendEmail(name, subject, email, message) {
         Host: "smtp.gmail.com",
         Username: "testing84.email@gmail.com",
         Password: "qwertyu-99",
-        To: 'testing84.email@gmail.com',
+        To: "testing84.email@gmail.com",
         From: "testing84.email@gmail.com",
         Subject: subject,
         Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message}`,
