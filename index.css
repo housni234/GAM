@@ -69,17 +69,61 @@ footer {
 
 /* carousel slide caption title */
 .slide-caption-title{
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-size: 70px;
 }
-
-h2{
-  /* margin-bottom: 50px; */
-  font-size: 40px;
+@media (max-width: 576px){
+  .slide-caption-title{
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
 }
 
+.sub-cap-slide{
+  /* margin-bottom: 50px; */
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+@media (max-width: 576px){
+  .sub-cap-slide{
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+
+/* slide-button */
 .slide-btn{
-  margin-bottom: 110px;
+  margin-bottom: 90px;
+  margin-top: 5px;
+}
+@media (max-width: 576px){
+.slide-btn{
+  margin-top: 18px;
+  margin-bottom: 16px;
+  padding: 4px;
+  font-size: 7px;
+}
+}
+
+.sub-cap-slide-registration{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+@media (max-width: 576px){
+  .sub-cap-slide-registration{
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+
+.sub2-cap-slide{
+  margin-bottom: 20px;
+}
+@media (max-width: 576px){
+.sub2-cap-slide{
+  font-size: 12px;
+  margin-bottom: 4px;
+}
 }
 
 /*footer*/
@@ -185,9 +229,14 @@ letter-spacing: 2px;
   background-position: top;
   background-size: 1282px 800px;
 }
+@media (max-width: 576px){
+  .about-us-body{
+    background-size: 1282px 934px;
+  }
+}
+
 .about-us-text{
   line-height: 1.8;
-  color:rgb(255, 255, 255);
 }
 
 .forms-bar{
@@ -234,8 +283,8 @@ textarea{
 }
 
 .course-desc{
-  height: 2700px;
-  width: 900px;
+  height: 2000px;
+  width: 90%;
   border-radius: 30px;
   background-image: url(./img/Backgrounds/cours-desc-bg.png);
   box-shadow: 1px 1px 30px 4px black;
