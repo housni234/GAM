@@ -1,5 +1,6 @@
+// toggle button
 
-
+// contact us sending email SMTP
 document.getElementById("contact-us-form").addEventListener("submit", submitForm);
 
 
@@ -17,10 +18,10 @@ function submitForm() {
 function sendEmail(name, subject, email, message) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "testing84.email@gmail.com",
-        Password: "asdfghj-012",
-        To: "testing84.email@gmail.com",
-        From: "testing84.email@gmail.com",
+        Username: "gamentorscontactus@gmail.com",
+        Password: "jbjxazlfzjdhdkzj",
+        To: "gamentorscontactus@gmail.com",
+        From: "gamentorscontactus@gmail.com",
         Subject: subject,
         Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message}`,
     }).then(

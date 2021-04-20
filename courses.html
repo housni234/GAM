@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -18,6 +20,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body style="background-attachment: fixed;" background="./img/Backgrounds/courses-background.png">
@@ -32,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a class='nav-link  active pl-0 pr-4 mt-5 pb-0' href='./home.html'><span class="material-icons">
+                        <a class='nav-link  active pl-0 pr-4 mt-5 pb-0' href='./index.html'><span class="material-icons">
                                 account_balance
                             </span><br>HOME</a>
                     </li>
@@ -158,7 +161,7 @@
             <!-- student counseling -->
             <div class="col-sm-3 mt-5 mr-5">
                 <div class="card">
-                    <a href="#college-counseling">
+                    <a href="#COLLEGE-COUNSELING">
                         <img class="card-img rounded" src="./img/Cards/College Counseling.svg">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center text-dark"><strong>COLLEGE COUNSELING</strong></h4>
@@ -170,10 +173,13 @@
         </div>
     </div>
 
-    <div class="container course-desc mt-5">
+    <div class="container course-desc mt-5 mb-5 ">
         <!-- academic mentoring -->
         <div class="d-flex justify-content-center">
             <h2 class=" mt-5 mb-4" id="academic-mentoring"><u>ACADEMIC MENTORING</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
         </div>
         <div>GAM understands the importance of academic success. At the same time, to be successful in the
             future,
@@ -185,14 +191,16 @@
             in
             all subject areas. Students are engaged with topics that stimulate their personal growth, as well as
             develop their cross-cultural awareness and intercultural communication skills.</div>
-        <div class="mt-2"><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
 
         <!-- english course -->
         <div class="d-flex justify-content-center">
             <h2 class=" mt-5" id="english"><u>ENGLISH</u></h2>
         </div>
-        <div class="row justify-content-center">
-            <div class="d-flex justify-content-start mb-3 ">
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="course-schedule row justify-content-center">
+            <div class="d-flex justify-content-start mb-3">
                 <div class="mr-4 ml-3"><strong><u>Academic Mentoring</u>: English</strong></div>
                 <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
                 <div class="mr-4"><strong>Schedule: Flexible</strong></div>
@@ -217,126 +225,213 @@
                 with deeper meaning for
                 you and others.</div>
         </div>
-        
-            <div><strong><u>Academic Writing
-                        Practice</u> -- </strong><strong>Instructor:</strong> Troy Fillman</div>
-            <small>Age: 12 to university Flexible Schedule & Different Formats available; Individual & Small
-                Group
-                Courses for
-                Young Adults & Adults (Packages of 10 & 20 hour sessions; Written feedback on all
-                submissions)</small>
-            <div class="mt-1"> All drafts will receive written feedback and suggestions for improvement.
-                Students who complete the assignments successfully may opt to submit/use it for other purposes.
-                Peer editing may be required in small-group classes.
-            </div>
-            <div class="mt-2"><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
-            <!-- languages course -->
-            <div class="d-flex justify-content-center">
-                <h2 class=""><u>LANGUAGES</u></h2>
-            </div>
-            <div class="d-flex justify-content-start mb-2 mt-2">
-                <div class="mr-4"><strong>ITALIAN</strong></div>
-                <div class="mr-4"><strong>Levels 1-4</strong></div>
-                <div class="mr-4"><strong>20 hours/10 weeks</strong></div>
-                <div class="mr-4"><strong>Instructor: Jeremy Cotroneo</strong></div>
-            </div>
-            <div>With the world's 9th largest economy, Italy is a leading country for anyone interested in
-                design, fine
-                cuisine, fashion, luxury cars, engines, and wine, and the Italian language is the key to success
-                in
-                these
-                sectors. In Global Academic Mentors' Italian 1 – 4 courses, you will learn the basics of spoken
-                and
-                written
-                Italian in an engaging manner. The course instructor will cover fundamental grammar and lexis of
-                the
-                language in a practical way so
-                that you will be able to start
-                communicating as soon as you arrive in Italy
-            </div>
-            <div class="mt-2"><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
 
-            <!-- sience -->
-            <div class="d-flex justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>SCIENCE</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: SCIENCE</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
-            <!-- history course -->
-            <div class="row justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>HISTORY</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: HISTORY</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
-            <!-- IT -->
-            <div class="row justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>IT</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: IT</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
-            <!-- MATH -->
-            <div class="row justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>MATHEMATICS</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: MATHEMATICS</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
-            <!-- DEBATE -->
-            <div class="row justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>DEBATE & RHETORIC</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: DEBATE&RHETORIC</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
-            <!-- college counseling -->
-            <div class="row justify-content-center">
-                <h2 class="justify-content-center" id="science"><u>COLLEGE COUNSELING</u></h2>
-                </div>
-                <div class="d-flex justify-content-start mb-2 mt-2">
-                    <div class="mr-4"><strong><u>Academic Mentoring</u>: COLLEGE COUNSELING</strong></div>
-                    <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
-                    <div class="mr-4"><strong>Schedule: Flexible</strong></div>
-                    <div class="mr-4"><strong>Focus: Flexible</strong></div>
-                    <div class="mr-4"><strong>Instructor: Various</strong></div>
-                </div>
-            
+        <div><strong><u>Academic Writing
+                    Practice</u> -- </strong><strong>Instructor:</strong> Troy Fillman</div>
+        <small>Age: 12 to university Flexible Schedule & Different Formats available; Individual & Small
+            Group
+            Courses for
+            Young Adults & Adults (Packages of 10 & 20 hour sessions; Written feedback on all
+            submissions)</small>
+        <div class="mt-1"> All drafts will receive written feedback and suggestions for improvement.
+            Students who complete the assignments successfully may opt to submit/use it for other purposes.
+            Peer editing may be required in small-group classes.
+        </div>
+        <!-- languages course -->
+        <div class="d-flex justify-content-center">
+            <h2 class=""><u>LANGUAGES</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong>ITALIAN</strong></div>
+            <div class="mr-4"><strong>Levels 1-4</strong></div>
+            <div class="mr-4"><strong>20 hours/10 weeks</strong></div>
+            <div class="mr-4"><strong>Instructor: Jeremy Cotroneo</strong></div>
+        </div>
+        <div>With the world's 9th largest economy, Italy is a leading country for anyone interested in
+            design, fine
+            cuisine, fashion, luxury cars, engines, and wine, and the Italian language is the key to success
+            in
+            these
+            sectors. In Global Academic Mentors' Italian 1 – 4 courses, you will learn the basics of spoken
+            and
+            written
+            Italian in an engaging manner. The course instructor will cover fundamental grammar and lexis of
+            the
+            language in a practical way so
+            that you will be able to start
+            communicating as soon as you arrive in Italy
+        </div>
+
+        <!-- sience -->
+        <div class="d-flex justify-content-center">
+            <h2 class="justify-content-center" id="science"><u>SCIENCE</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>Academic Mentoring</u>: SCIENCE</strong></div>
+            <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
+            <div class="mr-4"><strong>Schedule: Flexible</strong></div>
+            <div class="mr-4"><strong>Focus: Flexible</strong></div>
+            <div class="mr-4"><strong>Instructor: Various</strong></div>
+        </div>
+
+        <!-- history course -->
+        <div class="row justify-content-center">
+            <h2 class="justify-content-center" id="science"><u>HISTORY</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>Academic Mentoring</u>: HISTORY</strong></div>
+            <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
+            <div class="mr-4"><strong>Schedule: Flexible</strong></div>
+            <div class="mr-4"><strong>Focus: Flexible</strong></div>
+            <div class="mr-4"><strong>Instructor: Various</strong></div>
+        </div>
+
+        <!-- IT -->
+        <div class="row justify-content-center">
+            <h2 class="justify-content-center" id="science"><u>IT</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>Academic Mentoring</u>: IT</strong></div>
+            <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
+            <div class="mr-4"><strong>Schedule: Flexible</strong></div>
+            <div class="mr-4"><strong>Focus: Flexible</strong></div>
+            <div class="mr-4"><strong>Instructor: Various</strong></div>
+        </div>
+
+        <!-- MATH -->
+        <div class="row justify-content-center">
+            <h2 class="justify-content-center" id="science"><u>MATHEMATICS</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>Academic Mentoring</u>: MATHEMATICS</strong></div>
+            <div class="mr-4"><strong>Level: K to 12 University+</strong></div>
+            <div class="mr-4"><strong>Schedule: Flexible</strong></div>
+            <div class="mr-4"><strong>Focus: Flexible</strong></div>
+            <div class="mr-4"><strong>Instructor: Various</strong></div>
+        </div>
+
+        <!-- DEBATE -->
+        <div class="row justify-content-center">
+            <h2 class="justify-content-center" id="science"><u>DEBATE & RHETORIC</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>Academic Mentoring</u>: DEBATE&RHETORIC</strong></div>
+            <div class="mr-4"><strong>Level: 6 to 12 University+</strong></div>
+            <div class="mr-4"><strong>Schedule: Flexible</strong></div>
+            <div class="mr-4"><strong>Focus: Flexible</strong></div>
+            <div class="mr-4"><strong>Instructor: Various</strong></div>
+        </div>
+
+        <!-- college counseling -->
+        <div class="row justify-content-center">
+            <h2 class="justify-content-center" id="COLLEGE-COUNSELING"><u>COLLEGE COUNSELING</u></h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class=""><a href="./register.html" class="btn-danger mt-5">REGISTER</a></div>
+        </div>
+        <div class="d-flex justify-content-start mb-2 mt-2">
+            <div class="mr-4"><strong><u>University Mentoring</u>: COLLEGE COUNSELING</strong></div>
+            <div class="mr-4"><strong>Level: 9 to 12 University+</strong></div>
+        </div>
+        <div>
+            GAM College Counseling services are provided by trusted education professionals with years of proven success
+            in assisting international families with application and acceptance to Canadian, American, British, and
+            Swiss Universities.
+        </div>
     </div>
-    
+
     <!-- contact us button -->
     <a class="float" data-toggle="modal" data-target="#exampleModal" type="button">
         <img src="./img/logos/contact-us03.png">
     </a>
+    <!--contact us-form-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Contact us</h4>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="form-sub-title m-3">Please fill out our online form below. One of our team members will be
+                    in touch
+                    within 24 business hours.
+                </div>
+                <div class="modal-body">
+                    <form method="post" id="contact-us-form">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control mb-3 " id="InputName" placeholder="Name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input mb-3 " id="InputSubject"
+                                    placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="message-text"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn" onclick="sendEmail()">Send message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!--footer-->
     <footer>
+        <div class="footer-info">
+            <div class="container">
+                <div class="d-flex justify-content-around">
+                    <a class="text-light mt-4" href="./privacy-policy.html">Privacy policy</a>
+                    <div class="mt-4">Copyright © 2021 Global Academic Mentors, LLC. All rights reserved</div>
+                </div>
+            </div>
     </footer>
+
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
