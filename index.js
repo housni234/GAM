@@ -18,10 +18,10 @@ function submitForm() {
 function sendEmail(name, subject, email, message) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "gamentorscontactus@gmail.com",
-        Password: "jbjxazlfzjdhdkzj",
-        To: "gamentorscontactus@gmail.com",
-        From: "gamentorscontactus@gmail.com",
+        Username: "globalacademicmentorscontact@gmail.com",
+        Password: "wnersdpplyfjtilt",
+        To: "globalacademicmentorscontact@gmail.com",
+        From: "globalacademicmentorscontact@gmail.com",
         Subject: subject,
         Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message}`,
     }).then(

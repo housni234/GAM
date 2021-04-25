@@ -315,6 +315,16 @@ letter-spacing: 2px;
     background-size: 1282px 1442px;
   }
 }
+@media (min-width: 1283px){
+  .about-us-body{
+    background-size: 1460px 1642px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1255px){
+  .about-us-body{
+    background-size: 1460px 1640px;
+  }
+}
 
 .about-us-text{
   line-height: 1.8;
