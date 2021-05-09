@@ -60,7 +60,6 @@ body {
   color: white;
 }
 
-
 /* carousel slide caption title */
 .slide-caption-title{
   margin-bottom: 60px;
@@ -164,23 +163,7 @@ body {
   }
 }
 
-/*footer*/
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 6.5rem;            /* Footer height */
-  background-color: rgb(1,87,174);
-}
+/* footer */
 .footer-info p {
   font-size: small;
   color: white;
@@ -197,6 +180,11 @@ footer{
   font-size: 8px;
 }
 }
+@media (max-width: 1440px) and (min-width:768px){
+  footer{
+    margin-top: 200px;
+  }
+  }
 
 .course-btn{
   margin-top: 220px;
@@ -222,14 +210,15 @@ footer{
   margin-top: 90px;
   padding: 14px;
 }
-@media (max-width:425px){
+@media (max-width:766px){
  .schedule-block{
-   width:85%;
+   width: 99%;
+   margin-left: 0;
  }
 }
 
 .schedule-text{
-margin-left: 40px;
+margin-left: 10%;
 text-decoration: underline;
 font-weight: bold;
 letter-spacing: 2px;
@@ -248,9 +237,10 @@ letter-spacing: 2px;
   border-radius: 2px;
   background-color: white;
 }
-@media (max-width:425px) {
+@media (max-width:766px) {
  .schedule-section{
-   width: 85%;
+   width: 99%;
+   margin-left: 0;
  }
 }
 
@@ -351,17 +341,13 @@ letter-spacing: 2px;
   height: 100%;
 }
 
+
 .modal-message{
   width: 400px;
 }
 .modal-content{
   background-color: rgb(13, 54, 77);
 }
-
-/* .gam-filter{
-  height: 100;
-  width: 100;
-} */
 
 textarea{
   width: 480px;
@@ -408,6 +394,19 @@ textarea{
    background-image: url(./img/Backgrounds/testimonials-sheet.png);
    box-shadow: 1px 1px 30px 4px black;
  }
+ @media(max-width:768px){
+ .testimonials-sheet{
+  width: auto;
+  height: auto;
+ }
+ }
+
+ /* testimonial-bar */
+@media (max-width:425px){
+.testimonals-bar{
+  width: 400px;
+}
+}
 
 h5{
    margin-top: 20px;
@@ -426,3 +425,4 @@ font-size: 14px;
 background-image: url(./img/Backgrounds/courses-background.png);
 background-attachment: fixed;
 }
+
