@@ -295,7 +295,7 @@ letter-spacing: 2px;
   background-image: url(./img/Backgrounds/About\ us\ bg.png);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1282px 800px;
+  background-size: 1282px 996px;
 }
 @media (max-width: 768px){
   .about-us-body{
