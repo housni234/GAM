@@ -89,7 +89,7 @@ body {
 @media (max-width: 480px){
   .sub-cap-slide{
     font-size: 11px;
-    margin-bottom: 2px;
+    margin-bottom: 18px;
   }
 }
 /* tablets queries */
@@ -107,12 +107,9 @@ body {
   margin-top: 5px;
 }
 /* phones queries */
-@media (max-width: 480px){
+@media (max-width: 767px){
 .slide-btn{
-  margin-top: 1px;
-  margin-bottom: 1px;
-  padding: 3px;
-  font-size: 7px;
+  display: none;
 }
 }
 /* tablets queries */
@@ -152,7 +149,7 @@ body {
 @media (max-width: 480px){
 .sub2-cap-slide{
   font-size: 9px;
-  margin-bottom: 4px;
+  margin-bottom: 18px;
 }
 }
 /* tablet queries */
@@ -181,7 +178,7 @@ footer{
 }
 }
 @media (max-width: 1440px) and (min-width:768px){
-  footer{
+  .f-num-2{
     margin-top: 200px;
   }
   }
