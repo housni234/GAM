@@ -423,3 +423,17 @@ background-image: url(./img/Backgrounds/courses-background.png);
 background-attachment: fixed;
 }
 
+.contact-banner{
+  width: 100%;
+  height: 90px;
+  background-color:rgb(1,87,174) ;
+  position: fixed;
+  font-size: 17px;
+  line-height: 30px;
+}
+@media (max-width:425px){
+  .contact-banner{
+    font-size: 12px;
+  }
+}
+
